@@ -28,5 +28,8 @@
 
 ## Usage 
 
-- Navigate to the heroku link above and click the "Get Started" button. On the next page, you are able to enter new notes and save them to the left-hand column. 
+- Navigate to the heroku link above and click the "Get Started" button. On the next page, you are able to enter new notes and save them to the left-hand column.
+
+## Future Development
+- A feature I could add but wasn't required for this assignment would be the functionality to delete a note from the left-hand column.
 
