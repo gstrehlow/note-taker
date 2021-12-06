@@ -1,6 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const router = require('express').Router();
+const numList = [];
 
 router.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '../db/db.json'));
@@ -33,5 +34,15 @@ router.post('/notes', (req, res) => {
         res.end();
     }
 });
+
+function generateID(){
+    let exist = false;
+    let random;
+    while(!exist){
+        random = Math.floor(Math.random() * 10000);
+        found = (!numList.includes(random));
+    }
+    return random;
+}
 
 module.exports = router; 
