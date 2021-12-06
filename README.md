@@ -1,5 +1,9 @@
 # Note Taker
 
+![screencapture-gstrehlow-note-taker-herokuapp-2021-12-05-21_01_14](https://user-images.githubusercontent.com/90304692/144780903-5bc634b9-ffca-4cc3-9d01-321992465160.png)
+![screencapture-gstrehlow-note-taker-herokuapp-notes-2021-12-05-21_10_03](https://user-images.githubusercontent.com/90304692/144780950-d4df253b-1b63-41fe-822f-7141af1d040f.png)
+
+
 ## Description 
 
 - Take some notes with the Note Taker heroku application using node.js, and the express package.
