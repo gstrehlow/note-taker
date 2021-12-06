@@ -40,7 +40,7 @@ function generateID(){
     let random;
     while(!exist){
         random = Math.floor(Math.random() * 10000);
-        found = (!numList.includes(random));
+        exist = (!numList.includes(random));
     }
     return random;
 }
